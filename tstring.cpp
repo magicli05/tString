@@ -32,25 +32,6 @@ Revision History:
 #include <algorithm>
 
 #include "tstring.h"
-//#include ".\\_PRIV\\Regex\\regexpr2.h"
-
-//#ifdef _UNICODE
-//
-//#ifdef _MT
-//#pragma comment (lib, ".\\tstring\\_PRIV\\Regex\\Lib\\RegexLib_Unicode_MT.lib")
-//#else
-//#pragma comment (lib, ".\\tstring\\_PRIV\\Regex\\Lib\\RegexLib_Unicode_ST.lib")
-//#endif
-//
-//#else
-//
-//#ifdef _MT
-//#pragma comment (lib, ".\\tstring\\_PRIV\\Regex\\Lib\\RegexLib_Ansi_MT.lib")
-//#else
-//#pragma comment (lib, ".\\tstring\\_PRIV\\Regex\\Lib\\RegexLib_Ansi_ST.lib")
-//#endif
-//
-//#endif
 
 // 用于BASE64编码、解码的常量
 char pszBase64TAB[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
